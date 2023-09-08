@@ -1,0 +1,28 @@
+namespace Lab1_Tipochenkov_Ivan
+{
+class Program
+{
+static void Main(string[] args)
+{
+sbyte a = -7;
+sbyte b = Math.Abs(a);
+//Console.WriteLine(b);
+sbyte c = 10;
+sbyte d = 9;
+sbyte e = Math.Max( c , d);
+//Console.WriteLine(e);
+double f = 49;
+double g = Math.Sqrt(f);
+// Console.WriteLine(g);
+double k = 3.64;
+double l = Math.Truncate(k);
+// Console.WriteLine(l);
+double x = 30;
+double y = Math.Cos(2 * x);
+double o = Math.Pow(Math.Cos(x),2)-Math.Pow(Math.Sin(x),2);
+if (y == o) Console.WriteLine(true);
+else Console.WriteLine(false);
+
+}
+}
+}
